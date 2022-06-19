@@ -15,29 +15,28 @@ const Home: NextPage = () => {
       <main className="mx-auto max-w-4xl">
         <div className="h-36"></div>
         <div className="px-4">
-          <div className="">
+          <div>
             <h1 className="text-left text-3xl tracking-tight font-semibold text-gray-900">
               <span className="block">Abraham Prince</span>
             </h1>
             <p className="mt-3 text-base text-gray-700">Frontend developer</p>
           </div>
-
           <ul className="mt-6 flex gap-4">
-            <li className="">
+            <li>
               <a
                 href="https://github.com/abeprincec"
                 className="text-blue-700 ">
                 Github
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 href="https://www.linkedin.com/in/abrahampr/"
                 className="text-blue-700 ">
                 Linkedin
               </a>
             </li>
-            <li className="">
+            <li>
               <a href="mailto:abeprincec@gmail.com" className="text-blue-700 ">
                 abeprincec@gmail.com
               </a>
@@ -45,8 +44,6 @@ const Home: NextPage = () => {
           </ul>
         </div>
       </main>
-
-      <footer className=""></footer>
     </>
   );
 };
