@@ -19,9 +19,9 @@ const Home: NextPage = () => {
             <h1 className="text-left text-3xl tracking-tight font-semibold text-gray-900">
               <span className="block">Abraham Prince</span>
             </h1>
-            <p className="mt-3 text-base text-gray-700">Frontend developer</p>
+            <p className="mt-2 text-base text-gray-700">Frontend developer</p>
           </div>
-          <ul className="mt-6 flex gap-4">
+          <ul className="mt-4 flex gap-4">
             <li>
               <a
                 href="https://github.com/abeprincec"
